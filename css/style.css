@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 
-	font-family: 'Roboto', sans-serif; /* ??????????????????? */
+	font-family: 'Roboto', sans-serif;
 	color: #333;
 	line-height: 1.5;
 
@@ -91,18 +91,6 @@ select{
 	text-decoration: none;
 }
 
-.edit_icon{
-	background: url("../images/user/edit.png") no-repeat center;
-	background-size: cover;
-
-	width: 50px;
-	height: 50px;
-
-	margin-right: 10px;
-
-	transition: ease 0.3s;
-}
-
 /* Header white bottom */
 .header:after{
 	display: block;
@@ -147,14 +135,14 @@ select{
 	margin-right: 10px;
 }
 
-/* For achievments num */
+/* For achievements num */
 .box_item_num{
 	display: flex;
 
 	margin-top: 10px;
 }
 
-/* Add achievments */
+/* Add achievements */
 .add_ach{
 	margin-top: 30px;
 }
@@ -283,7 +271,7 @@ select{
 	background: #333;
 }
 
-/* Achievments */
+/* Achievements */
 .achievements{
 	margin-top: 30px;
 	margin-bottom: 50px;

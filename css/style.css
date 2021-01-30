@@ -1,295 +1,295 @@
-body{
-	margin: 0;
+body {
+    margin: 0;
 
-	font-family: 'Roboto', sans-serif;
-	color: #333;
-	line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.5;
 
-	background: #ddd;
+    background: #ddd;
 }
 
 *,
-*after,
-*before{
-	box-sizing: border-box;
+* after,
+* before {
+    box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6{
-	margin: 0;
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
 }
 
-input{
+input {
     padding-left: 5px;
-    
+
     font-size: 20px;
 
     border-radius: 10px;
     border: 3px solid #333;
 }
 
-select{
+select {
     border-radius: 10px;
     border: 3px solid #333;
 }
 
 /* Profile */
-.header{
-	background: #333;
-	color: #fff;
+.header {
+    background: #333;
+    color: #fff;
 
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 /* Profile header data */
-.profile_header_data{
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
+.profile_header_data {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 
-	width: 100%;
+    width: 100%;
 
-	margin-top: 5%;
+    margin-top: 5%;
 }
 
-.profile_header_photo{
-	width: 333px;
-	height: 333px;
+.profile_header_photo {
+    width: 333px;
+    height: 333px;
 
-	border: 8px solid #333;
-	border-radius: 30px;
-		
-	transform: translateY(40px);
+    border: 8px solid #333;
+    border-radius: 30px;
+
+    transform: translateY(40px);
 }
 
-.profile_header_name{
-	font-size: 45px;
+.profile_header_name {
+    font-size: 45px;
 
-	margin-left: 35px;
-	margin-bottom: 10px;
+    margin-left: 35px;
+    margin-bottom: 10px;
 }
 
 /* Edit */
-.right_part{
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
+.right_part {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
-.edit_link{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.edit_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-	margin-bottom: 35px;
+    margin-bottom: 35px;
 }
 
-.edit_link:hover{
-	text-decoration: none;
+.edit_link:hover {
+    text-decoration: none;
 }
 
 /* Header white bottom */
-.header:after{
-	display: block;
-	
-	content: "";
+.header:after {
+    display: block;
 
-	width: 100%;
-	height: 70px;
+    content: "";
 
-	background: #fff;
+    width: 100%;
+    height: 70px;
+
+    background: #fff;
 }
 
 /* Education */
-.education{
-	
+.education {
+
 }
 
-.education_box{
-	background: #fff;
-	border-radius: 10px;
+.education_box {
+    background: #fff;
+    border-radius: 10px;
 
-	width: 100%;
+    width: 100%;
 
-	padding: 30px 40px;
-	margin-top: 30px;
+    padding: 30px 40px;
+    margin-top: 30px;
 
-	font-size: 25px;
+    font-size: 25px;
 }
 
 /* Box item */
-.box_item{
-	display: flex;
+.box_item {
+    display: flex;
 }
 
-#special{
-	font-size: 24px;
+#special {
+    font-size: 24px;
 }
 
-.box_subtitle{
-	font-weight: 700;
+.box_subtitle {
+    font-weight: 700;
 
-	margin-right: 10px;
+    margin-right: 10px;
 }
 
 /* For achievements num */
-.box_item_num{
-	display: flex;
+.box_item_num {
+    display: flex;
 
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 /* Add achievements */
-.add_ach{
-	margin-top: 30px;
+.add_ach {
+    margin-top: 30px;
 }
 
-.add_box{
-	width: 100%;
+.add_box {
+    width: 100%;
 
-	background: #fff;
-	border-radius: 10px;
+    background: #fff;
+    border-radius: 10px;
 
-	padding: 30px 50px;
+    padding: 30px 50px;
 }
 
 /* Title */
-.title{
-	width: 100%;
+.title {
+    width: 100%;
 
-	font-size: 35px;
-	font-weight: 700;
+    font-size: 35px;
+    font-weight: 700;
 }
 
 /* 1st row */
-.type{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-	width: 100%;
-	height: 200px;
+    width: 100%;
+    height: 200px;
 }
 
-.type_btn{
-	font-size: 35px;
-	font-weight: 700;
-	color: #333;
+.type_btn {
+    font-size: 35px;
+    font-weight: 700;
+    color: #333;
 
-	padding: 20px 30px;
+    padding: 20px 30px;
 
-	background: #fff;
-	border: 4px solid #333;
-	border-radius: 5px;
+    background: #fff;
+    border: 4px solid #333;
+    border-radius: 5px;
 
-	transition: color 0.2s;
+    transition: color 0.2s;
 }
 
-.type_btn:hover{
-	color: #fff;
-	background: #333;
+.type_btn:hover {
+    color: #fff;
+    background: #333;
 }
 
 /* Olympiad */
-.olympiad_form{
-	width: 100%;
-	height: 100%;
+.olympiad_form {
+    width: 100%;
+    height: 100%;
 }
 
-.o_f_box{
-	width: 100%;
+.o_f_box {
+    width: 100%;
 
-	padding: 30px 40px;
+    padding: 30px 40px;
 }
 
-.o_f_item{
-	margin-bottom: 20px;
+.o_f_item {
+    margin-bottom: 20px;
 }
 
-.o_f_subtitle{
-	font-size: 40px;
-	font-weight: 700;
+.o_f_subtitle {
+    font-size: 40px;
+    font-weight: 700;
 }
 
-.o_f_item select{
-	margin-left: 25px;
-	margin-top: 5px;
+.o_f_item select {
+    margin-left: 25px;
+    margin-top: 5px;
 
-	width: 300px;
+    width: 300px;
 
-	font-size: 25px;
+    font-size: 25px;
 }
 
 /* O miss. Если чего-то нету в списке надо будет отправить чела в форму, где он может заполнить не хватающий элемент*/
-.o_miss{
-	display: flex;
-	justify-content: flex-end;
+.o_miss {
+    display: flex;
+    justify-content: flex-end;
 
-	width: 100%;
+    width: 100%;
 }
 
-.o_miss_link{
-	font-size: 25px;
-	text-decoration: none;
-	color: #333;
+.o_miss_link {
+    font-size: 25px;
+    text-decoration: none;
+    color: #333;
 }
 
-.o_miss_link:hover{
-	text-decoration: none;
-	color: #111;
+.o_miss_link:hover {
+    text-decoration: none;
+    color: #111;
 }
 
 /* Submit */
-.submit{
-	display: flex;
-	justify-content: center;
+.submit {
+    display: flex;
+    justify-content: center;
 
-	width: 100%;
+    width: 100%;
 }
 
-.submit_btn{
-	margin-top: 30px;
-	padding: 5px 15px;
+.submit_btn {
+    margin-top: 30px;
+    padding: 5px 15px;
 
-	font-size: 35px;
-	font-weight: 700;
+    font-size: 35px;
+    font-weight: 700;
 
-	color: #333;
-	background: #fff;
+    color: #333;
+    background: #fff;
 
-	border: 4px solid #333;
-	border-radius: 10px;
+    border: 4px solid #333;
+    border-radius: 10px;
 
-	transition: color 0.2s;
+    transition: color 0.2s;
 }
 
-.submit_btn:hover{
-	color: #fff;
-	background: #333;
+.submit_btn:hover {
+    color: #fff;
+    background: #333;
 }
 
 /* Achievements */
-.achievements{
-	margin-top: 30px;
-	margin-bottom: 50px;
+.achievements {
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
-.a_box{
-	background: #fff;
-	border-radius: 10px;
+.a_box {
+    background: #fff;
+    border-radius: 10px;
 
-	padding: 30px 40px;
+    padding: 30px 40px;
 
-	overflow: auto;
+    overflow: auto;
 }
 
-.table{
-	font-size: 14px;
-	vertical-align: top;
-	overflow-x: auto;
-	white-space: nowrap;
-	-webkit-overflow-scrolling: touch;
+.table {
+    font-size: 14px;
+    vertical-align: top;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
 }

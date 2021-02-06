@@ -1,30 +1,30 @@
-html{
+html {
     font-size: 16px;
 }
 
-body{
-	margin: 0;
+body {
+    margin: 0;
 
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
-	line-height: 1.5;
+    line-height: 1.5;
 
     color: #fff;
     background: #1a1a1d;
 }
 
 *,
-*after,
-*before{
+* after,
+* before {
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6{
-	margin: 0;
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
 }
 
 /* Navbar */
-.navbar{
+.navbar {
     position: fixed;
     width: 100%;
 
@@ -35,21 +35,21 @@ h1, h2, h3, h4, h5, h6{
     border-bottom: 1px solid #c3033f;
 }
 
-.navbar a{
+.navbar a {
     color: #fff;
 }
 
 /* Welcome */
-.welcome{    
+.welcome {
     padding-top: 100px;
 }
 
-.welcome h1{
+.welcome h1 {
     font-size: 45px;
     font-weight: 700;
 }
 
-.welcome h1::after{
+.welcome h1::after {
     display: block;
     content: "";
 
@@ -63,12 +63,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* Students */
-.students{
+.students {
     padding-top: 30px;
     margin-bottom: 40px;
 }
 
-.students_header{
+.students_header {
     width: 100%;
     text-align: center;
     font-size: 30px;
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 50px;
 }
 
-.students_header::after{
+.students_header::after {
     display: block;
     content: "";
 
@@ -92,12 +92,12 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 10px;
 }
 
-.carousel-img{
+.carousel-img {
     height: 600px;
 }
 
 /* Advantages */
-.advantage_header{
+.advantage_header {
     width: 100%;
     text-align: center;
     font-size: 30px;
@@ -107,27 +107,27 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-.advantage-item{
+.advantage-item {
     margin-bottom: 25px;
     padding-bottom: 25px;
 
     border-bottom: 2px solid #6f2232;
 }
 
-.advantage-item:last-child{
+.advantage-item:last-child {
     border: 0;
 }
 
 /* Buy */
-.subscription-header{
+.subscription-header {
     margin-top: 500px;
 }
 
-.buy{
+.buy {
     margin-top: 350px;
 }
 
-.card{
+.card {
     width: 300px;
 
     background: #1a1a1d;
@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 20px;
 }
 
-.card_header{
+.card_header {
     width: 100%;
     text-align: center;
     font-size: 30px;
@@ -147,29 +147,29 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 20px;
 }
 
-.card img{
+.card img {
     height: 300px;
 }
 
-.btn{
+.btn {
     background: #c3033f;
     border: 1px solid #c3033f;
 }
 
-.btn:hover{
+.btn:hover {
     background: #1a1a1d;
     border: 1px solid #fff;
 }
 
 /* Footer */
-footer{
+footer {
     background-color: #0b0c10;
 
     padding: 20px 0;
     margin-top: 100px;
 }
 
-.footer_left{
+.footer_left {
     display: flex;
     align-items: center;
 
@@ -178,7 +178,7 @@ footer{
     margin-bottom: 10px;
 }
 
-.footer_right{
+.footer_right {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -186,20 +186,20 @@ footer{
     height: 100%;
 }
 
-.social_link{
+.social_link {
     margin-right: 15px;
 }
 
-.social_link:last-child{
+.social_link:last-child {
     margin: 0;
 }
 
-.social_logo{
+.social_logo {
     width: 50px;
 
     transition: 0.2s ease;
 }
 
-.social_logo:hover{
+.social_logo:hover {
     transform: scale(1.1);
 }

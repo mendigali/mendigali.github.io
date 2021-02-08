@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.5;
+
+    background: #ddd;
+}
+
+*,
+* after,
+* before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Profile */
+.header {
+    background: #333;
+    color: #fff;
+
+    width: 100%;
+    height: 100%;
+}
+
+/* Profile header data */
+.profile_header_data {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    width: 100%;
+
+    margin-top: 5%;
+}
+
+.profile_header_photo {
+    width: 333px;
+    height: 333px;
+
+    border: 8px solid #333;
+    border-radius: 30px;
+
+    transform: translateY(40px);
+}
+
+.profile_header_name {
+    font-size: 45px;
+
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+/* Header white bottom */
+.header:after {
+    display: block;
+
+    content: "";
+
+    width: 100%;
+    height: 70px;
+
+    background: #fff;
+}
+
+/* Education */
+.education_box {
+    background: #fff;
+    border-radius: 10px;
+
+    width: 100%;
+
+    padding: 30px 40px;
+    margin-top: 30px;
+
+    font-size: 25px;
+}
+
+/* Box item */
+.box_item {
+    display: flex;
+}
+
+#special {
+    font-size: 24px;
+}
+
+.box_subtitle {
+    font-weight: 700;
+
+    margin-right: 10px;
+}
+
+/* Title */
+.title {
+    width: 100%;
+
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* Achievements */
+.achievements {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.a_box {
+    background: #fff;
+    border-radius: 10px;
+
+    padding: 30px 40px;
+
+    overflow: auto;
+}
+
+.table {
+    font-size: 14px;
+    vertical-align: top;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
